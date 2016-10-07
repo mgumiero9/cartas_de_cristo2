@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "5815112b-a8e2-452e-a7d7-6be18154ed10",
-      "lastModifiedDate": 1475851805144,
+      "lastModifiedDate": 1475872680624,
       "creationDate": 1475851800377
     },
     "XDK-app-designer": "true",
@@ -127,7 +127,7 @@
         "appName_": "cartas_de_cristo",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
@@ -141,7 +141,8 @@
             "itms:*",
             "itms-apps:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
@@ -167,12 +168,13 @@
         "appName_": "cartas_de_cristo",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
           "intents": [],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
